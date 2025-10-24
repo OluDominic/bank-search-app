@@ -1,0 +1,38 @@
+{
+  "name": "naijabankfinder",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "packageManager": "yarn@1.22.0",
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "@react-native-community/netinfo": "11.3.1",
+    "@react-navigation/bottom-tabs": "^6.5.11",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@reduxjs/toolkit": "^2.0.0",
+    "axios": "^1.6.0",
+    "expo": "~51.0.0",
+    "expo-clipboard": "^8.0.7",
+    "expo-status-bar": "~1.12.0",
+    "naija-banks-branches-sortcode": "^1.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-paper": "^5.12.0",
+    "react-native-safe-area-context": "4.10.5",
+    "react-native-screens": "3.31.1",
+    "react-native-vector-icons": "^10.0.0",
+    "react-redux": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.45",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "typescript": "^5.3.0"
+  },
+  "private": true
+}

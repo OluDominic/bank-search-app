@@ -1,0 +1,128 @@
+╔══════════════════════════════════════════════════════════════╗
+║         🇳🇬 NAIJA BANK FINDER - QUICK START GUIDE 🇳🇬          ║
+╚══════════════════════════════════════════════════════════════╝
+
+📱 React Native (Expo) Mobile App for Nigerian Bank Directory
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 TO GET STARTED:
+
+1. Install Dependencies
+   ────────────────────
+   cd NaijaBankFinder
+   yarn install
+
+2. Start Development Server
+   ─────────────────────────
+   yarn start
+
+3. Run on Device/Simulator
+   ────────────────────────
+   • iOS:     yarn ios     (Mac only)
+   • Android: yarn android
+   • Web:     yarn web
+
+   OR scan QR code with Expo Go app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ FEATURES INCLUDED:
+
+✅ Bank Search          - Search all Nigerian banks
+✅ Bank Details         - View bank info & branches
+✅ Branch Finder        - Find branches by state
+✅ Favorites            - Save banks & branches
+✅ Dark Mode            - Light/dark theme toggle
+✅ Offline Support      - Works without internet
+✅ 36 States + FCT      - Complete Nigeria coverage
+✅ Type-Safe            - Full TypeScript
+✅ Redux Store          - State management
+✅ Material Design 3    - Modern UI
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 DOCUMENTATION FILES:
+
+• README.md              - Main documentation
+• SETUP.md               - Detailed setup guide
+• FEATURES.md            - Feature documentation
+• PROJECT_STRUCTURE.md   - Architecture overview
+• QUICKSTART.txt         - This file
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏗️ PROJECT STRUCTURE:
+
+NaijaBankFinder/
+├── src/
+│   ├── components/     (BankCard, BranchCard, etc.)
+│   ├── screens/        (Home, Details, Finder, etc.)
+│   ├── navigation/     (AppNavigator)
+│   ├── store/          (Redux slices)
+│   ├── types/          (TypeScript types)
+│   ├── utils/          (Storage utilities)
+│   └── constants/      (Themes, states)
+├── App.tsx             (Root component)
+└── package.json        (Dependencies)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 TECH STACK:
+
+Framework:        Expo SDK 52+ / React Native
+Language:         TypeScript
+State:            Redux Toolkit
+Navigation:       React Navigation v7
+UI:               React Native Paper v5
+Storage:          AsyncStorage
+Data:             naija-banks-branches-sortcode
+Network:          NetInfo
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 FIRST STEPS AFTER INSTALL:
+
+1. Test Home Screen     - Search for "Access Bank"
+2. View Bank Details    - Tap any bank
+3. Try Branch Finder    - Select "Lagos" state
+4. Add Favorites        - Tap heart icons
+5. Toggle Dark Mode     - Go to Settings
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ TROUBLESHOOTING:
+
+Problem: Metro bundler won't start
+Fix:     yarn expo start --clear
+
+Problem: Dependencies won't install
+Fix:     rm -rf node_modules yarn.lock && yarn install
+
+Problem: Module not found errors
+Fix:     Ensure yarn install completed successfully
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌐 LINKS:
+
+Web Version:  https://naija-bank-finder.vercel.app/
+NPM Package:  https://npmjs.com/package/naija-banks-branches-sortcode
+Expo Docs:    https://docs.expo.dev/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 YOU'RE ALL SET!
+
+The app is production-ready with:
+• Professional UI/UX
+• Complete feature set
+• Full TypeScript support
+• Comprehensive error handling
+• Performance optimizations
+• Dark mode support
+• Offline functionality
+
+Start building and enjoy! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
