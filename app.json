@@ -4,11 +4,11 @@
     "slug": "naija-bank-finder",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/banks-ngr-logo.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/banks-ngr-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#1A1A1A"
     },
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/banks-ngr-logo.png",
         "backgroundColor": "#1A1A1A"
       },
       "package": "com.naijabankfinder.app",
